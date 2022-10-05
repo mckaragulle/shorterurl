@@ -4,6 +4,9 @@
 ## Projeyi ayağa kaldırmak için
 > docker-compose up -d
 
+## Veritabanını Kurmak için
+> php artisan migrate
+
 ## Tarayıcıda Aşağıdaki Bağlantıyı aç
 > http://localhost:8000/
 
