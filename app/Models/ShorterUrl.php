@@ -9,5 +9,5 @@ class ShorterUrl extends Model
 {
     use HasFactory;
 
-    protected $fillable = ["user_id", "long_url", "short_url"]
+    protected $fillable = ["user_id", "long_url", "short_url"];
 }

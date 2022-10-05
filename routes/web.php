@@ -1,6 +1,7 @@
 <?php
 
 use Illuminate\Support\Facades\Route;
+use App\Http\Livewire\ShowUrl;
 /*
 |--------------------------------------------------------------------------
 | Web Routes
@@ -15,3 +16,5 @@ use Illuminate\Support\Facades\Route;
 Route::get('/', function () {
     return view('welcome');
 });
+
+Route::get('/u/{short_url}', ShowUrl::class)->name('shorter_url');
